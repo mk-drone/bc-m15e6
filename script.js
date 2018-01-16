@@ -126,7 +126,7 @@ class Stopwatch extends React.Component{
                 <a href="#" className="button" id="clear" onClick={this.clearList}>Clear list</a>
             </nav>
             <div className="stopwatch">{this.format(this.state.times)}</div>
-            <Results results={this.state.results} />
+            {/* <Results results={this.state.results} /> */}
             <ul className="results">{resultList}</ul>
             </div>);
     }
